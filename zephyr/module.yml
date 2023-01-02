@@ -1,6 +1,5 @@
-name: rmw
 build:
-  cmake: zephyr
-  kconfig: zephyr/Kconfig
+  cmake-ext: True
+  kconfig-ext: True
   depends:
     - rcutils
